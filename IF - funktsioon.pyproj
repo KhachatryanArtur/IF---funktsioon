@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>ed317900-ce2c-47fa-8128-b526f73eeeee</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>IF___funktsioon.py</StartupFile>
+    <StartupFile>ц\IF___funktsioon.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="IF___funktsioon.py" />
+    <Compile Include="ц\IF___funktsioon.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ц\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
